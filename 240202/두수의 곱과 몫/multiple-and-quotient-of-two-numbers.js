@@ -9,7 +9,7 @@ function multiSol(x, y){
 }
 
 function diviSol(x, y){
-    return `${x} / ${y} = ${x/y}`;
+    return `${x} / ${y} = ${Math.floor(x/y)}`;
 }
 
 console.log(`${multiSol(a, b)}\n${diviSol(a, b)}`);
