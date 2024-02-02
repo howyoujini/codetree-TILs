@@ -6,7 +6,7 @@ let b = Number(input[1]);
 
 let add = a + b;
 let sub = a - b;
-let quoti = (a / b).toFixed(0);
+let quoti = Math.floor(a / b);
 let rest = a % b;
 
 console.log(`${add}\n${sub}\n${quoti}\n${rest}`);
