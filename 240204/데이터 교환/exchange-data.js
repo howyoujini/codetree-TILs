@@ -3,9 +3,10 @@ let b = 6;
 let c = 7;
 let originA = a;
 let originB = b;
+let originC = c;
 
-b = a;
+b = originA;
 c = originB;
-originA = c;
+a = originC;
 
 console.log(`${a}\n${b}\n${c}`);
